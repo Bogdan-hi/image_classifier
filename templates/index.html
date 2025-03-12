@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Классификация изображений</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Загрузите изображение</h1>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Загрузить</button>
+    <div id="result"></div>
+    <h2>История предсказаний</h2>
+    <ul>
+        {% for item in history %}
+            <li><img src="{{ item.image_path }}" width="50"> {{ item.label }} ({{ item.confidence }}%)</li>
+        {% endfor %}
+    </ul>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
