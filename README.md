@@ -22,5 +22,7 @@
 ### Шаг 1: Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/yourusername/image-classifier.git
-cd image-classifier
+[git clone https://github.com/yourusername/image-classifier.git
+cd image-classifier](https://github.com/Bogdan-hi/image_classifier.git)
+
+### Шаг 2: Создайте и активируйте виртуальное окружение
