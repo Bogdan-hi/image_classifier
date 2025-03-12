@@ -1,25 +1,25 @@
-# Image Classifier Web Application
+# Веб-приложение для классификации изображений
 
-This is a web application built using Flask and TensorFlow to classify images using a pre-trained CIFAR-10 model. The application allows users to upload an image, and it predicts the class of the image from the CIFAR-10 dataset.
+Это веб-приложение, построенное с использованием Flask и TensorFlow, для классификации изображений с использованием предобученной модели CIFAR-10. Приложение позволяет пользователям загружать изображение, и оно предсказывает класс изображения из набора данных CIFAR-10.
 
-## Features
+## Возможности
 
-- Upload an image through the web interface
-- Image classification based on the CIFAR-10 model
-- Displays the predicted class along with the confidence
-- Stores prediction history in an SQLite database
+- Загрузка изображения через веб-интерфейс
+- Классификация изображения на основе модели CIFAR-10
+- Отображение предсказанного класса и уверенности
+- Сохранение истории предсказаний в базе данных SQLite
 
-## Requirements
+## Требования
 
 - Python 3.x
-- TensorFlow (for the machine learning model)
-- Flask (for the web server)
-- h5py (for loading the model)
-- SQLite (for database storage)
+- TensorFlow (для машинного обучения)
+- Flask (для веб-сервера)
+- h5py (для загрузки модели)
+- SQLite (для хранения данных)
 
-## Setup
+## Настройка
 
-### Step 1: Clone the repository
+### Шаг 1: Клонируйте репозиторий
 
 ```bash
 git clone https://github.com/yourusername/image-classifier.git
